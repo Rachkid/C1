@@ -1,6 +1,6 @@
 #!/bin/bash
 # ce code affiche la liste des fichiers dans un répertoire 
-read fichier
-count=$(ls "$fichier" | wc -l)
+read dossier
+count=$(ls "$dossier" | wc -l)
 counts=$(echo "$count")
-echo " le dossier $fichier contient $counts fichier(s)."
+echo " le dossier $dossier contient $counts fichier(s)."
